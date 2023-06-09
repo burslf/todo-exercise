@@ -1,0 +1,36 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.input-container input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: rgb(244, 227, 255);
+    border-radius: 9px;
+    padding: 0 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.input-container input::placeholder {
+    font-style: italic;
+}
+
+.add-icon {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(228, 188, 255);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
